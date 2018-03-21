@@ -1,0 +1,17 @@
+/usr/bin/nohup: ignoring input
+Traceback (most recent call last):
+  File "/alidata/www/wxpy/main.py", line 2, in <module>
+    from wxpy import *
+  File "/usr/lib/python2.6/site-packages/wxpy/__init__.py", line 60, in <module>
+    from .api.bot import Bot
+  File "/usr/lib/python2.6/site-packages/wxpy/api/bot.py", line 19, in <module>
+    import itchat
+  File "/usr/lib/python2.6/site-packages/itchat/__init__.py", line 2, in <module>
+    from .core import Core
+  File "/usr/lib/python2.6/site-packages/itchat/core.py", line 5, in <module>
+    from . import config, storage, utils, log
+  File "/usr/lib/python2.6/site-packages/itchat/log.py", line 35, in <module>
+    ls = LogSystem()
+  File "/usr/lib/python2.6/site-packages/itchat/log.py", line 10, in __init__
+    self.logger.addHandler(logging.NullHandler())
+AttributeError: 'module' object has no attribute 'NullHandler'
